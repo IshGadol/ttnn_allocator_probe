@@ -25,6 +25,11 @@ TTNN installation, device open, and conv2 allocator tests will be added in later
 
 ## Evidence practice (Phase 0A)
 Capture:
+
+Policy:
+- Evidence logs under `evidence/` are intentionally NOT committed to git by default (see `.gitignore`).
+- Evidence is retained via canonical on-disk paths for continuity.
+
 - `pwd`, `ls -la`, `git status -sb`
 - file contents of initial placeholders (README, Dockerfile stubs)
 - later: container build logs and TTNN import traces
