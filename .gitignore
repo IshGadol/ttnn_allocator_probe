@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# Docker
+*.tar
+
+# OS
+.DS_Store
+
+# Evidence runtime outputs
+evidence/*.log
