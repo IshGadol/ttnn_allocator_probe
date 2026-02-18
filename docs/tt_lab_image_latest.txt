@@ -1,1 +1,1 @@
-ghcr.io/ishgadol/ttnn_allocator_probe:tt-lab-20260218T180633Z
+ghcr.io/ishgadol/ttnn_allocator_probe:tt-lab-20260218T183446Z
