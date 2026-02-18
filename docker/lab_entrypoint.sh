@@ -10,5 +10,6 @@ echo "=== python ==="
 python3 -V || true
 pip3 --version || true
 
-echo "=== keep-alive ==="
-tail -f /dev/null
+echo "=== http health server :80 ==="
+# Bind on 0.0.0.0:80 so Koyeb TCP health check succeeds
+python3 -m http.server 80 --bind 0.0.0.0
